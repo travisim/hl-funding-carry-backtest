@@ -1,0 +1,24 @@
+[workspace]
+
+[package]
+
+name = "hl-funding-carry-backtest"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Deterministic historical vector backtest of a short funding-carry strategy on Hyperliquid over a frozen SQLite funding snapshot (funding leg only)."
+
+[lib]
+name = "mp_hl_funding_backtest"
+path = "src/lib.rs"
+
+[[bin]]
+name = "hl-funding-backtest"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+rusqlite = { version = "0.32", features = ["bundled"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"

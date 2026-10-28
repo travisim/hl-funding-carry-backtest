@@ -1,0 +1,14 @@
+{
+  "pulled_at_utc": "2026-10-27T22:35:30Z",
+  "start_time_utc": "2026-09-12T22:29:18Z",
+  "end_time_utc": "2026-10-27T22:29:18Z",
+  "days": 45,
+  "universe_count": 235,
+  "coins_fetched": 179,
+  "coins_skipped": [],
+  "coins_errored": [],
+  "coins_filter": null,
+  "delisted_excluded": 56,
+  "row_count": 192256,
+  "api": "hyperliquid-info"
+}
